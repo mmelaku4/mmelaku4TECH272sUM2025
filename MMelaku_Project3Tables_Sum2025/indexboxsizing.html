@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Tables and Forms</title>
+<meta name="viewport" content="demonstration of coding tables and forms">
+<link rel="stylesheet" href="css/normalize.css"> <!-- this links to normalize.css -->
+							 
+	  
+	  
+	  
+	 <style>
+	* {outline:1px solid red;}
+	
+	/* BOX SIZING */
+	html {box-sizing:border-box;}
+	*, *:before, *:after {box-sizing:inherit}
+	
+	/* CLEARFIX */
+		 
+		 .clearfix: :after{
+			 content:"";
+			 clear: both;
+			 display: table;
+			 
+		 }
+		 body{margin:0; padding:0;}
+		 .logo {height:66px; width:180px; float:left;}
+		 nav {height:28px; width:358px; float:right; margin-top:27px;}
+		 
+		 header {height:143px; padding:34px 49px 0 71px;}
+	</style>
+		 
+</head>
+	<div id="wrap">
+		<header class="clearfix">
+			<div class="logo">logo</div>
+			<nav>Nav</nav>
+		</header>
+	</div>
+
+<body>
+</body>
+</html>
